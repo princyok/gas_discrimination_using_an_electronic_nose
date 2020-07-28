@@ -48,17 +48,17 @@ Huerta, R., Mosqueiro, T., Fonollosa, J., Rulkov, N., & Rodriguez-Lujan, I. (201
 
 # Introduction to the mini-project
 
-This mini-project is inspired by the work done by Huerta et al (2016) (preprint on arXiv).
+This mini-project is inspired by the work done by **Huerta et al (2016)** ([preprint on arXiv](https://arxiv.org/pdf/1608.01719.pdf)).
 
 They demonstrated a method to improve gas discrimination by first filtering out the effects of environmental humidity and temperature from the gas sensor responses and using that to train an inhibitory support vector machine (I-SVM) that performs the discrimination.
 
-The discrimination task was to use an electronic nose made of 8 metal-oxide gas sensors to differentiate three different gaseous stimili: wine, banana, and background (i.e. neither banana nor wine). Their paper excellently describes it as follows:
+The discrimination task was to use an electronic nose made of 8 metal-oxide gas sensors to **differentiate three different gaseous stimili: wine, banana, and background (i.e. neither banana nor wine).** Their paper excellently describes it as follows:
 
-Rather than using the particular chemical signatures of compounds from bananas and wines, our goal is to construct a model that learns to predict presence of banana/wine based on the multivariate response of the sensors. The chemical signature of bananas changes, for instance, as they ripen, and wine's signature depends on alcohol content (ethanol), origin of the grape, among other factors. Thus, our approach attempts at building a model that does not rely on wine type and banana ripeness.
+> Rather than using the particular chemical signatures of compounds from bananas and wines, our goal is to construct a model that learns to predict presence of banana/wine based on the multivariate response of the sensors. The chemical signature of bananas changes, for instance, as they ripen, and wine's signature depends on alcohol content (ethanol), origin of the grape, among other factors. Thus, our approach attempts at building a model that does not rely on wine type and banana ripeness.
 
-They used a theory-based model that exploits the fact that sensor responses depend on the changes of energy bands of the sensing surface, and the changes in the energy bands in turn arise from variations in environmental humidity and temperature.
+They used a theory-based model that exploits the fact that sensor responses depend on the changes of energy bands of the sensing surface, and the changes in the energy bands in turn arise from variations in environmental humidity and temperature. 
 
-Their theory-based, energy band model computes resistance values based on just changes in environmental humidity and temperature, and by subtracting this output from the actual resistance values measured by the electronic nose, they filter out the impact of changes in environmental humidity and temperature from the sensor readings.
+Their theory-based, energy band model computes resistance values based on just changes in environmental humidity and temperature, and by subtracting this output from the actual resistance values measured by the electronic nose, they filter out the impact of changes in environmental humidity and temperature from the sensor readings. 
 
 By using these filtered signals, instead of the original signals, as an input to an I-SVM model, they were able to improve the perfomance of the gas discrimination task from 71.1% to 80.9%.
 
