@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.docx
+
+.ipynb_checkpoints
+
+tryouts/
+original/
+logs/
+HT_Sensor_UCI_Dataset/
