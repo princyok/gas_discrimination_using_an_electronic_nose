@@ -1,4 +1,4 @@
-# Mini-project summary
+# Summary: Rapid Gas Discrimination Using An Electronic Nose
 
 In this mini-project, an LSTM model is used to process data from an electronic nose to discriminate between the gaseous signatures of banana, wine and background (neither banana nor wine) with an accuracy of over **99%** on a test dataset. A significant improvement on the 81% accuracy achieved by **Huerta et al (2016)** ([preprint on arXiv](https://arxiv.org/pdf/1608.01719.pdf)), who provided the dataset to the public.
 
