@@ -5,12 +5,12 @@ In this mini-project, an LSTM model is used to process data from an electronic n
 # Prologue: Rapid Gas Discrimination Using An Electronic Nose
 
 ## Gas Discrimination
-Gas discrimination task involves identifying and differenting various gases or gasoues stimuli. There are simpler examples like detecting carbon monoxide in indoor air, and hydrogen sulphide in a mining site, and there more challenging ones like differentiating the gasoues stimuli of a pool of diesel fuel from that of a pool of gasoline (which can be important as the latter is much more flammable than the former as it has a much lower flash point). Such gas discrimination tasks can be tackled using an **electronic nose**.
+Gas discrimination task involves identifying and differenting various gases or gasoues stimuli. Simple examples are detecting carbon monoxide in indoor air, and hydrogen sulphide in a mining site. There are more challenging ones like differentiating the gasoues stimuli of a pool of diesel fuel from that of a pool of gasoline (which can be important as the latter is much more flammable than the former as it has a much lower flash point). Such gas discrimination tasks can be tackled using an **electronic nose**.
 
 <img src="images/diesel_vs_gasoline.png" style="width: 400px;"/>
 <center><i><b>Gasoline (right) is much more flammable than diesel fuel (left). Each produces a rich mixture of hydrocarbon gases that gives it a distinct gaseous signature and also its scents.</b></i></center>
 
-This subfield rapid chemical analysis is also beginning to intersect with robotics, as electronic noses are becoming vital instruments for robots to have, especially those deployed in hazardous environments. Traditional techniques of discriminating gases, like gas chromatography, often take hours to run and are therefore not suitable (Fan et al 2019).
+This subfield of rapid chemical analysis is also beginning to intersect with robotics, as electronic noses are becoming vital instruments for robots to have, especially those deployed in hazardous environments. Traditional techniques of discriminating gases, like gas chromatography, often take hours to run and are therefore not suitable (Fan et al 2019).
  
 Accurate discrimination of gases in a quick, cost-efficient manner remains a  challenging problem that's still actively being researched from multiple angles (lots of papers every year), like developing better sensors, better pattern recognition algorithms, expanding our understanding of the physical processes involved in the transduction of chemical signatures to electrical signals, etc.
 
